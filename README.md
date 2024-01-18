@@ -1,7 +1,7 @@
 README.txt
 ==========
 
-Project: Wallet Application
+Project: Wallet Application ***EXAMPLE***
 ===========================
 
 Introduction
@@ -10,10 +10,13 @@ This Wallet Application is a simple Kotlin-based web project using Javalin to se
 
 Prerequisites
 -------------
-- JDK (Java Development Kit) 1.8 or higher
-- Kotlin 1.7.10 or higher
-- Gradle Build Tool (preferably the latest version)
-- An IDE that supports Kotlin 
+- JDK (Java Development Kit) 1.8 or higher https://hg.openjdk.java.net/
+      'sudo apt install openjdk-17-jdk'
+- Kotlin 1.7.10 or higher https://kotlinlang.org/download/
+- Gradle Build Tool (preferably the latest version) https://javalin.io/tutorials/gradle-setup
+- An IDE that supports Kotlin https://github.com/VSCodium/vscodium/releases
+- Maven https://javalin.io/tutorials/maven-setup
+- Javalin https://github.com/javalin/javalin
 
 Project Structure
 -----------------
