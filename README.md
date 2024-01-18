@@ -45,9 +45,14 @@ Important Notes
 - Any changes to the Kotlin files will require a rebuild of the project.
 - For detailed information on the project's functionality and API endpoints, refer to the inline comments in the `Wallet.kt` file.
 
-Support
--------
-For support, please contact @NinjaAssPirate.
 
-Thank you for using the Wallet Application!
+***************************************************
+*  ____  ___   ___  ____    _    _   _  ____ _  __*
+* / ___|/ _ \ / _ \|  _ \  | |  | | | |/ ___| |/ /*
+*| |  _| | | | | | | | | | | |  | | | | |   | ' / *
+*| |_| | |_| | |_| | |_| | | |__| |_| | |___| . \ *
+* \____|\___/ \___/|____/  |_____\___/ \____|_|\_\*
+***************************************************
+-------
+contact @NinjaAssPirate.
 
