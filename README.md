@@ -1,3 +1,53 @@
-# WalletProject
- 
-# Wallet-template
+README.txt
+==========
+
+Project: Wallet Application
+===========================
+
+Introduction
+------------
+This Wallet Application is a simple Kotlin-based web project using Javalin to serve a web page and handle backend logic. The project includes a `Wallet.kt` Kotlin file as the main class and a `home.html` file for the frontend.
+
+Prerequisites
+-------------
+- JDK (Java Development Kit) 1.8 or higher
+- Kotlin 1.7.10 or higher
+- Gradle Build Tool (preferably the latest version)
+- An IDE that supports Kotlin 
+
+Project Structure
+-----------------
+- src/main/kotlin/com/wallet/Wallet.kt: Main Kotlin file for backend logic.
+- src/main/kotlin/com/wallet/home.html: Static HTML file for the frontend.
+
+Setup Instructions
+------------------
+1. Clone or download the project to your local machine.
+2. Open the project in your IDE.
+3. Ensure that the JDK is properly set up in your IDE.
+
+Building the Project
+--------------------
+1. Navigate to the root directory of the project via the terminal or command prompt.
+2. Run the following command to build the project: 'gradle build'
+3. If the build is successful, you should see a BUILD SUCCESSFUL message in the terminal.
+
+Running the Application
+-----------------------
+1. To run the application, execute: 'gradle run'
+
+2. Once the application starts, it will be accessible at `http://localhost:8080`.
+3. Open a web browser and navigate to `http://localhost:8080` to view the `home.html` page.
+
+Important Notes
+---------------
+- The `home.html` file is served as a static file by the Javalin server running in `Wallet.kt`.
+- Any changes to the Kotlin files will require a rebuild of the project.
+- For detailed information on the project's functionality and API endpoints, refer to the inline comments in the `Wallet.kt` file.
+
+Support
+-------
+For support, please contact @NinjaAssPirate.
+
+Thank you for using the Wallet Application!
+
