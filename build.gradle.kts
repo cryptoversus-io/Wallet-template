@@ -20,7 +20,7 @@ application {
 sourceSets {
     main {
         resources {
-            srcDirs ("src/main/kotlin")
+            srcDirs ("src/main/resources/")
             include ("**/*.html")
         }
     }
