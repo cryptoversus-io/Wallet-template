@@ -6,7 +6,7 @@ import io.javalin.http.staticfiles.Location
 fun main() {
     val app = Javalin.create { config ->
         // Set the location of static files
-        config.addStaticFiles("/com/wallet", Location.CLASSPATH)
+        config.addStaticFiles("/com", Location.CLASSPATH)
     }.start(8080)
 
     app.get("/") { ctx ->
