@@ -17,6 +17,10 @@ application {
     mainClass.set("com.wallet.WalletKt")
 }
 
+tasks.processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
 sourceSets {
     main {
         resources {
