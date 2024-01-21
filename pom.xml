@@ -42,7 +42,7 @@
         
         <resources>
             <resource>
-                <directory>src/main/kotlin</directory>
+                <directory>src/main/resources/</directory>
                 <includes>
                     <include>**/*.html</include>
                     <include>**/*.kt</include>
