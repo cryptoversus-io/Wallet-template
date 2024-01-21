@@ -33,7 +33,9 @@ Building the Project
 --------------------
 1. Navigate to the root directory of the project via the terminal or command prompt.
 2. Run the following command to build the project: 'gradle build'
-3. If the build is successful, you should see a BUILD SUCCESSFUL message in the terminal.
+  - To use the Gradle Wrapper use './gradlew build'
+  - If ./gradlew permission is denied run 'chmod +x gradlew'
+4. If the build is successful, you should see a BUILD SUCCESSFUL message in the terminal.
 
 Running the Application
 -----------------------
