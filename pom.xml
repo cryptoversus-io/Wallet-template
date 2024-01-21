@@ -45,6 +45,7 @@
                 <directory>src/main/kotlin</directory>
                 <includes>
                     <include>**/*.html</include>
+                    <include>**/*.kt</include>
                     <!-- Include any other file types you need -->
                 </includes>
             </resource>
