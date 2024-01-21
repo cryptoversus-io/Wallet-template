@@ -21,7 +21,7 @@ Prerequisites
 Project Structure
 -----------------
 - src/main/kotlin/com/wallet/Wallet.kt: Main Kotlin file for backend logic.
-- src/main/resources/home.html: Static HTML file for the frontend.
+- src/main/resources/ : Static HTML file(s) for the frontend.
 
 Setup Instructions
 ------------------
