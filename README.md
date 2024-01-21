@@ -35,7 +35,7 @@ Building the Project
 2. Run the following command to build the project: 'gradle build'
   - To use the Gradle Wrapper use './gradlew build'
   - If ./gradlew permission is denied run 'chmod +x gradlew'
-4. If the build is successful, you should see a BUILD SUCCESSFUL message in the terminal.
+3. If the build is successful, you should see a BUILD SUCCESSFUL message in the terminal.
 
 Running the Application
 -----------------------
