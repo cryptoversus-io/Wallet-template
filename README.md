@@ -12,11 +12,11 @@ Prerequisites
 -------------
 - JDK (Java Development Kit) 1.8 or higher https://hg.openjdk.java.net/
       'sudo apt install openjdk-17-jdk'
-- Kotlin 1.7.10 or higher https://kotlinlang.org/download/
+- Kotlin 1.7.10 or higher https://kotlinlang.org/download/ (1.9.21)
 - Gradle Build Tool (preferably the latest version) https://javalin.io/tutorials/gradle-setup
-- An IDE that supports Kotlin https://github.com/VSCodium/vscodium/releases
-- Maven https://javalin.io/tutorials/maven-setup
-- Javalin https://github.com/javalin/javalin
+- An IDE that supports Kotlin https://github.com/VSCodium/vscodium/releases (1.82.2)
+- Maven https://javalin.io/tutorials/maven-setup (3.6.3)
+- Javalin https://github.com/javalin/javalin (5.6.3)
 
 Project Structure
 -----------------
@@ -32,17 +32,20 @@ Setup Instructions
 Building the Project
 --------------------
 1. Navigate to the root directory of the project via the terminal or command prompt.
-2. Run the following command to build the project: 'gradle build'
-  - To use the Gradle Wrapper use './gradlew build'
+2. Run the following command to build the project: 'gradle clean build'
+  - To use the Gradle Wrapper use './gradlew clean build'
   - If ./gradlew permission is denied run 'chmod +x gradlew'
 3. If the build is successful, you should see a BUILD SUCCESSFUL message in the terminal.
 
 Running the Application
 -----------------------
-1. To run the application, execute: 'gradle run'
+1. To run the application, execute:
+   '''gradle run'''
+   or
+   '''./gradlew run'''
 
-2. Once the application starts, it will be accessible at `http://localhost:8080`.
-3. Open a web browser and navigate to `http://localhost:8080` to view the `home.html` page.
+4. Once the application starts, it will be accessible at `http://localhost:8080`.
+5. Open a web browser and navigate to `http://localhost:8080` to view the `home.html` page.
 
 Important Notes
 ---------------
