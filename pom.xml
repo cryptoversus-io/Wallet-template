@@ -8,8 +8,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <kotlin.version>1.5.31</kotlin.version>
-        <javalin.version>4.0.0</javalin.version>
+        <kotlin.version>1.9.21</kotlin.version>
+        <javalin.version>5.6.3</javalin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -18,14 +18,14 @@
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
-            <version>${kotlin.version}</version>
+            <version>1.9.21</version>
         </dependency>
 
         <!-- Javalin dependency -->
         <dependency>
             <groupId>io.javalin</groupId>
             <artifactId>javalin</artifactId>
-            <version>${javalin.version}</version>
+            <version>5.6.3</version>
         </dependency>
 
         <!-- SLF4J Simple Binding -->
@@ -45,7 +45,6 @@
                 <directory>src/main/resources/</directory>
                 <includes>
                     <include>**/*.html</include>
-                    <include>**/*.kt</include>
                     <!-- Include any other file types you need -->
                 </includes>
             </resource>
@@ -54,7 +53,7 @@
         <plugins>
 
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
+                <groupId>org.codehaus.mojo</groupId>A
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
@@ -65,7 +64,7 @@
             <plugin>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <groupId>org.jetbrains.kotlin</groupId>
-                <version>${kotlin.version}</version>
+                <version>1.9.21</version>
                 <executions>
                     <execution>
                         <id>compile</id>
