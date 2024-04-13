@@ -54,6 +54,7 @@ Important Notes
 - For detailed information on the project's functionality and API endpoints, refer to the inline comments in the `Wallet.kt` file.
 
 
+```
 ***************************************************
 *  ____  ___   ___  ____    _    _   _  ____ _  __*
 * / ___|/ _ \ / _ \|  _ \  | |  | | | |/ ___| |/ /*
@@ -61,6 +62,10 @@ Important Notes
 *| |_| | |_| | |_| | |_| | | |__| |_| | |___| . \ *
 * \____|\___/ \___/|____/  |_____\___/ \____|_|\_\*
 ***************************************************
+```
+
+Next Template is the FlexNet Stack
+https://github.com/CryptoVersus-io/FlexNet.git
 -------
-contact @NinjaAssPirate.
+contact @NinjaAssPirate | @KitBaroness
 
