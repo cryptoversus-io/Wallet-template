@@ -64,8 +64,8 @@ Important Notes
 ***************************************************
 ```
 
-Next Template is the FlexNet Stack
-https://github.com/CryptoVersus-io/FlexNet.git
+#### Next Template is the FlexNet Stack
+* https://github.com/CryptoVersus-io/FlexNet.git
 -------
 contact @NinjaAssPirate | @KitBaroness
 
